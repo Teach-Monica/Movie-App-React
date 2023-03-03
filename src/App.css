@@ -1,0 +1,81 @@
+.App {
+  font-family: sans-serif;
+  
+}
+
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.App>div:nth-child(2)>.profile-pic {
+  border-radius: 0px;
+}
+
+.btn-like,
+.btn-dislike {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  border-style: none;
+}
+
+.btn-like {
+  margin-right: 0.5rem
+}
+
+.add-color {
+  display: flex;
+  align-items: center;
+}
+
+.book-spec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book-container {
+  width: 300px;
+  
+  
+}
+
+.book-poster {
+  width: 297px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+
+.book-rating {
+  font-size: 20px;
+
+}
+
+.book-summary {
+  margin-top: 0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  margin: 30px;
+  /* border: 1px solid black; */
+}
+
+.add-book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px
+}
+
+.book-detail-container {
+  max-width: 800px;
+ margin: 20px;
+}
